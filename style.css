@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* display: flex; */
+    /* color: white; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav1 styling starts from here */
+
+nav{
+    display: flex;
+    color: white;
+    width: 100vw;
+}
+
+.nav1{
+
+
+    width: 65%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin left:0px;
+    justify-content: space-evenly
+}
+
+.prime{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: serif;
+    justify-content: start;
+}
+
+
+
+
+.line{
+    height: 32px;
+    width: 4px;
+    background-color: grey;
+    border-radius: 10px;
+
+}
+
+.subscription {
+    height: 35px;
+    width: 140px;
+    display: flex;
+    /* background-color: white; */
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 6px;
+    
+}
+.subscription:hover{
+    color: black;
+    background-color: white;
+    transition: 80ms;
+}
+
+.nav2{
+    background-color: black;
+    height: 50px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+
+
+        
+    /* position: relative; */
+    /* padding: 0px;
+    margin: 0px; */
+
+}
+
+.profile{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    
+    background-image: url(./Profile-PNG-File.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.profile :hover{
+
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: white ;
+}
+.nav2 button{
+
+    height: 35px;
+    width: 110px;
+    border-radius: 8px;
+    background-color: #157BCF;
+    color: white;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    transition: 80ms;
+
+}
+
+.search :hover{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 80ms;
+
+}
+
+.language :hover{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 55px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 80ms;
+    
+
+}
+
+.options :hover{
+    background-color: white;
+    color: black;
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 80ms;
+
+    
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    /* background-image: ; */
+    /* background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg"); */
+    /* background-size: cover; */
+    /* height: 100vh;
+    width: 100vw; */
+    
+    
+}
+
+.box{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg");
+    background-size: cover;
+    
+}
+
+main h1{
+    color: white;
+
+}
+
+main h2{
+    color: white;
+}
+
+.signin {
+
+    height: 40px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+
+}
+
+.signin :hover{
+    /* height: 50px; */
+    /* width: 300px; */
+    background-color: white;
+    color: black;
+    transition-delay: 50ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+main{
+    /* padding: 50px; */
+    /* width: 100wh  ; */
+
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: relative; */
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    justify-content: space-evenly;
+    /* line-height: 50px; */
+}
+.box1text{
+    height: 100vh;
+    width: 70%;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding: 80px;
+    line-height: 80px;
+    
+}
+
+
+.box1text h2 {
+
+    line-height: 20PX;
+
+}
